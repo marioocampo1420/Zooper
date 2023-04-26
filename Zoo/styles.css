@@ -1,0 +1,101 @@
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+  }
+
+  h1{
+    color: rgb(45, 98, 30);
+    font-size: 45px;
+  }
+
+  ul li{
+    display: inline-block;
+    padding: 0px 20px ;
+  }
+
+  a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  a:hover{
+    color: rgb(45, 98, 30);
+
+  }
+  body {
+    background-color: khaki;
+   }
+   
+   .dj-banner{margin: 30px 0; position: relative;}
+   .dj-banner .dj-bg{background-image: url(/imagenes/banner.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%;}
+   .dj-banner .dj-bg img{display: block; margin: 20px auto; padding: 20px 0;}
+   .dj-banner .dj-text{text-align: center; padding-bottom: 20px;}
+   @media screen and (min-width:768px){
+      .dj-banner .dj-bg img{margin-right: 100px;}
+      .dj-banner .dj-text{position: absolute; top: 50%; left: 10%; transform: translate(-10%, -50%); width: 50%; text-align: left;}
+      .dj-banner .dj-text h1{font-size: calc(2*1.5vw);}
+      .dj-banner .dj-text p{font-size: calc(1.2*1.5vw);}
+   }
+.title h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ color: olive;
+
+}
+
+.column1 {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .row{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .beijing:hover{
+    
+    background-color: brown;
+    opacity: 0.5;
+    
+
+  }
+  .berlin:hover{
+    
+    background-color: brown;
+    opacity: 0.5;
+
+  }
+  .bronx:hover { 
+    background-color: brown;
+    opacity: 0.5;
+  
+
+  }
+  .toronto:hover{
+    background-color: brown;
+    opacity: 0.5;
+    
+
+  }
+
+  .london:hover{
+    background-color: brown;
+    opacity: 0.5;
+    
+  }
+
+  .img{  
+    width: 200px;
+    height: 100px;
+
+  }
